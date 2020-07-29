@@ -1,16 +1,29 @@
-### Hi there 👋
+# BeeIncu
+> Main code for the BeeIncu incubator.
 
-<!--
-**BeeIncu/beeincu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This are the controlscripts for the BeeIncu incubator.
 
-Here are some ideas to get you started:
+## Installation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Linux:
+
+Running the setup.py script installs all the requiered dependencies. You may need root permission to run the script.
+```sh
+python setup.py
+```
+
+## Release History
+
+* 0.0.1
+    * Work in progress
+    
+## Meta
+
+Kevin Sommer - 
+beeincu@gmx.at 
+
+Distributed under the MIT license. See ``LICENSE`` for more
+information.
+
+[https://github.com/BeeIncu/beeincu/]
+
