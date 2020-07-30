@@ -9,9 +9,9 @@ Raspberry Pi 3:
 
 Running the beeincu.py Python script is enough to start the program.
 
-´´´sh
+```sh
 python beeincu.py
-´´´
+```
 
 ## Release History
 
