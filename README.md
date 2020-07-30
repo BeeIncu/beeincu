@@ -3,14 +3,15 @@
 
 This are the controlscripts for the BeeIncu incubator.
 
-## Installation
+## Starting
 
-Linux:
+Raspberry Pi 3:
 
-Running the setup.py script installs all the requiered dependencies. You may need root permission to run the script.
-```sh
-python setup.py
-```
+Running the beeincu.py Python script is enough to start the program.
+
+´´´sh
+python beeincu.py
+´´´
 
 ## Release History
 
