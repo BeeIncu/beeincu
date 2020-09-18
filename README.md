@@ -1,15 +1,40 @@
 # BeeIncu
-> Main code for the BeeIncu incubator.
+> Code for the BeeIncu program
 
-This are the controlscripts for the BeeIncu incubator.
+This are the python script for the BeeIncu programm.
+Please note that this program only works when everything is set up correctly.
+
+Instructions on how to setup and configure your raspberry pie 3 are following.
+
+## Download
+To download the BeeIncu programm, simply clone https://github.com/BeeIncu/beeincu.git
+Afterwards follow the Steps listed below!
+
 
 ## Starting
 
-Raspberry Pi 3:
+###Raspberry Pi 3:
 
-Running the beeincu.py Python script is enough to start the program.
+####Step 1:
 
-```sh
+Install mysql-connector-python
+
+```shell script
+python -m pip install mysql-connector-python
+```
+
+####Step 2:
+
+Chance settings in settings.py with an editor(in this case "nano")
+```shell script
+nano settings.py
+```
+
+####Final Step:
+
+Run the beeincu main program:
+
+```shell script
 python beeincu.py
 ```
 
